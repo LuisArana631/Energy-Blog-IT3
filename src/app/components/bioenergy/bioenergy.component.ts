@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faLeaf } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-bioenergy',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bioenergy.component.css']
 })
 export class BioenergyComponent implements OnInit {
+
+  faLeaf = faLeaf;
 
   constructor() { }
 
