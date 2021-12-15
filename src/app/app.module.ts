@@ -8,7 +8,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BioenergyComponent } from './components/bioenergy/bioenergy.component';
 import { GeothermalComponent } from './components/geothermal/geothermal.component';
 import { HydropowerComponent } from './components/hydropower/hydropower.component';
-import { OceanComponent } from './components/ocean/ocean.component';
 import { SolarComponent } from './components/solar/solar.component';
 import { WindComponent } from './components/wind/wind.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -20,7 +19,6 @@ import { FooterComponent } from './components/footer/footer.component';
     BioenergyComponent,
     GeothermalComponent,
     HydropowerComponent,
-    OceanComponent,
     SolarComponent,
     WindComponent,
     FooterComponent

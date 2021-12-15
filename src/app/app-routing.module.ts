@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { BioenergyComponent } from './components/bioenergy/bioenergy.component';
 import { GeothermalComponent } from './components/geothermal/geothermal.component';
 import { HydropowerComponent } from './components/hydropower/hydropower.component';
-import { OceanComponent } from './components/ocean/ocean.component';
 import { SolarComponent } from './components/solar/solar.component';
 import { WindComponent } from './components/wind/wind.component';
 
@@ -19,10 +18,6 @@ const routes: Routes = [
   {
     path: 'hydropower',
     component: HydropowerComponent
-  },
-  {
-    path: 'ocean',
-    component: OceanComponent
   },
   {
     path: 'solar',
